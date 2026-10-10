@@ -1,5 +1,5 @@
 # 🎟️Complaints Tracking System 
-A complete complaints tracking system built using SQL Server and VB.NET. It features a normalized relational database design to manage complaint registration, assignment, tracking, and reporting. The system supports real-world complaint workflow management with a user-friendly interface for efficient complaint processing and resolution.
+A complete complaints tracking system built using SQL Server and VB.NET. It features a normalized relational database design to manage complaint registration, assignment, tracking, and reporting. The system is designed to support complaint intake, staff assignment, resolution updates, and reporting for efficient complaint handling.
 
 ## Features
 - Database design with SQL Server for complaint data management
@@ -8,7 +8,7 @@ A complete complaints tracking system built using SQL Server and VB.NET. It feat
 - Practical implementation of business logic in a database-driven application
 
 ## How It Works
-- Complaint Registration: Users enter complaint details including category (e.g., Service Problem, Product Issue), description, and date. The system stores this in the database.
+- Complaint Registration: Users enter complaint details including category (e.g., Service Problem, Product Issue), description, and date. This stores the complaint in the database.
 - Search and Filter: Users can search complaints by complaint ID or filter by category to quickly find relevant records.
 - Assignment: Complaints are assigned to staff members who will handle the resolution.
 - Update and Resolution: Assigned staff update the complaint status and add remarks about the resolution before closing the complaint.
@@ -17,14 +17,20 @@ A complete complaints tracking system built using SQL Server and VB.NET. It feat
 ## Complaint Categories and Workflow
 The system manages complaints through four main categories or stages:
 - Register Complaint: Users lodge new complaints by entering details such as complaint category, description, and date. This initiates the complaint record in the system.
-![app/register.png](app/register.png)
-- Assign Complaint: Once registered, complaints are assigned to appropriate staff members for investigation and resolution. This ensures accountability and tracking.
-![app/assign.png](app/assign.png)
-- Update Complaint: Assigned staff update the complaint status, add remarks, and document progress or resolution details. This keeps the complaint record current.
-![app/update.png](app/update.png)
-- Complaint Log: The system maintains a comprehensive log of all complaints, including their registration, assignment, updates, and final resolution. Users can search and review complaint history here.
-![app/complaintlog.png](app/complaintlog.png)
 
+<img src="app/register.png" alt="Register complaint" width="500" />
+
+- Assign Complaint: Once registered, complaints are assigned to appropriate staff members for investigation and resolution. This ensures accountability and tracking.
+
+<img src="app/assign.png" alt="Assign complaint" width="500" />
+
+- Update Complaint: Assigned staff update the complaint status, add remarks, and document progress or resolution details. This keeps the complaint record current.
+
+<img src="app/update.png" alt="Update complaint" width="500" />
+
+- Complaint Log: The system maintains a comprehensive log of all complaints, including their registration, assignment, updates, and final resolution. Users can search and review complaint history here.
+
+<img src="app/complaintlog.png" alt="Complaint log" width="500" />
 
 ## Built With
 - **SQL Server** – For designing and managing the relational database.
