@@ -25,10 +25,6 @@ The system manages complaints through four main categories or stages:
 - Complaint Log: The system maintains a comprehensive log of all complaints, including their registration, assignment, updates, and final resolution. Users can search and review complaint history here.
 ![app/complaintlog.png](app/complaintlog.png)
 
-## Screenshots
-Complaint Registration Form
-Search Results Display
-Update Complaint Status
 
 ## Built With
 - **SQL Server** – For designing and managing the relational database.
