@@ -14,6 +14,13 @@ A complete complaints tracking system built using SQL Server and VB.NET. It feat
 - Update and Resolution: Assigned staff update the complaint status and add remarks about the resolution before closing the complaint.
 - Reporting: The system generates reports summarizing complaints by category, status, and resolution time.
 
+## Complaint Categories and Workflow
+The system manages complaints through four main categories or stages:
+- Register Complaint: Users lodge new complaints by entering details such as complaint category, description, and date. This initiates the complaint record in the system.
+- Assign Complaint: Once registered, complaints are assigned to appropriate staff members for investigation and resolution. This ensures accountability and tracking.
+- Update Complaint: Assigned staff update the complaint status, add remarks, and document progress or resolution details. This keeps the complaint record current.
+- Complaint Log: The system maintains a comprehensive log of all complaints, including their registration, assignment, updates, and final resolution. Users can search and review complaint history here.
+
 ## Screenshots
 Complaint Registration Form
 Search Results Display
